@@ -1,0 +1,62 @@
+[
+  {
+    "id": "lb1",
+    "name": "Maya",
+    "xp": 2460,
+    "avatar": "owl-maya"
+  },
+  {
+    "id": "lb2",
+    "name": "Lucas",
+    "xp": 2190,
+    "avatar": "owl-lucas"
+  },
+  {
+    "id": "lb3",
+    "name": "Amara",
+    "xp": 1875,
+    "avatar": "owl-amara"
+  },
+  {
+    "id": "lb4",
+    "name": "Noah",
+    "xp": 1630,
+    "avatar": "owl-noah"
+  },
+  {
+    "id": "lb5",
+    "name": "Sana",
+    "xp": 1410,
+    "avatar": "owl-sana"
+  },
+  {
+    "id": "lb6",
+    "name": "Ethan",
+    "xp": 1180,
+    "avatar": "owl-ethan"
+  },
+  {
+    "id": "lb7",
+    "name": "Leila",
+    "xp": 930,
+    "avatar": "owl-leila"
+  },
+  {
+    "id": "lb8",
+    "name": "Arjun",
+    "xp": 760,
+    "avatar": "owl-arjun"
+  },
+  {
+    "id": "lb9",
+    "name": "Chloe",
+    "xp": 585,
+    "avatar": "owl-chloe"
+  },
+  {
+    "id": "lb10",
+    "name": "Mateo",
+    "xp": 430,
+    "avatar": "owl-mateo"
+  }
+]

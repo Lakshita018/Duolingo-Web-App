@@ -1,0 +1,859 @@
+{
+  "code": "es",
+  "name": "Spanish",
+  "flag": "🇪🇸",
+  "units": [
+    {
+      "id": "es-u1",
+      "section": 1,
+      "title": "Section 1, Unit 1",
+      "subtitle": "Form basic sentences",
+      "color": "#58cc02",
+      "colorDark": "#58a700",
+      "skills": [
+        {
+          "id": "es-s1",
+          "title": "Greetings",
+          "icon": "star",
+          "description": "Basic greetings and introductions",
+          "lessons": [
+            {
+              "id": "es-s1-l1",
+              "title": "Level 1",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "es-s1-l1-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"hello\"?",
+                    "options": [
+                      {
+                        "text": "hola",
+                        "img": "👋"
+                      },
+                      {
+                        "text": "gracias",
+                        "img": "🙏"
+                      },
+                      {
+                        "text": "adiós",
+                        "img": "👋"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "hola"
+                  }
+                },
+                {
+                  "id": "es-s1-l1-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "Good morning",
+                    "wordBank": [
+                      "buenos",
+                      "días",
+                      "buenas",
+                      "noches",
+                      "hola",
+                      "gracias"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "buenos días"
+                  }
+                },
+                {
+                  "id": "es-s1-l1-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Me ___ Ana.",
+                    "options": [
+                      "llamo",
+                      "llamas",
+                      "llama"
+                    ],
+                    "translation": "My name is Ana."
+                  },
+                  "solution": {
+                    "answer": "llamo"
+                  }
+                },
+                {
+                  "id": "es-s1-l1-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"thank you\" in Spanish",
+                    "hint": "Starts with G"
+                  },
+                  "solution": {
+                    "answer": "gracias"
+                  }
+                },
+                {
+                  "id": "es-s1-l1-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "hola",
+                        "right": "hello"
+                      },
+                      {
+                        "left": "adiós",
+                        "right": "goodbye"
+                      },
+                      {
+                        "left": "gracias",
+                        "right": "thank you"
+                      },
+                      {
+                        "left": "por favor",
+                        "right": "please"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "es-s1-l2",
+              "title": "Level 2",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "es-s1-l2-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"goodbye\"?",
+                    "options": [
+                      {
+                        "text": "adiós",
+                        "img": "👋"
+                      },
+                      {
+                        "text": "hola",
+                        "img": "👋"
+                      },
+                      {
+                        "text": "por favor",
+                        "img": "🙏"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "adiós"
+                  }
+                },
+                {
+                  "id": "es-s1-l2-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "My name is Luis",
+                    "wordBank": [
+                      "me",
+                      "llamo",
+                      "Luis",
+                      "soy",
+                      "hola",
+                      "adiós"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "me llamo Luis"
+                  }
+                },
+                {
+                  "id": "es-s1-l2-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "¿Cómo ___?",
+                    "options": [
+                      "estás",
+                      "estoy",
+                      "está"
+                    ],
+                    "translation": "How are you?"
+                  },
+                  "solution": {
+                    "answer": "estás"
+                  }
+                },
+                {
+                  "id": "es-s1-l2-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"please\" in Spanish",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "por favor"
+                  }
+                },
+                {
+                  "id": "es-s1-l2-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "buenos días",
+                        "right": "good morning"
+                      },
+                      {
+                        "left": "buenas tardes",
+                        "right": "good afternoon"
+                      },
+                      {
+                        "left": "buenas noches",
+                        "right": "good evening"
+                      },
+                      {
+                        "left": "me llamo",
+                        "right": "my name is"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "es-s1-l3",
+              "title": "Level 3",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "es-s1-l3-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "How do you say \"I am a student\"?",
+                    "options": [
+                      {
+                        "text": "Soy estudiante",
+                        "img": "🎓"
+                      },
+                      {
+                        "text": "Tengo estudiante",
+                        "img": "📚"
+                      },
+                      {
+                        "text": "Estoy profesor",
+                        "img": "👨‍🏫"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "Soy estudiante"
+                  }
+                },
+                {
+                  "id": "es-s1-l3-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I am fine, thank you",
+                    "wordBank": [
+                      "estoy",
+                      "bien",
+                      "gracias",
+                      "soy",
+                      "mal",
+                      "hola"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "estoy bien, gracias"
+                  }
+                },
+                {
+                  "id": "es-s1-l3-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Yo ___ estudiante.",
+                    "options": [
+                      "soy",
+                      "eres",
+                      "es"
+                    ],
+                    "translation": "I am a student."
+                  },
+                  "solution": {
+                    "answer": "soy"
+                  }
+                },
+                {
+                  "id": "es-s1-l3-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I am fine\" in Spanish",
+                    "hint": "Starts with Estoy"
+                  },
+                  "solution": {
+                    "answer": "estoy bien"
+                  }
+                },
+                {
+                  "id": "es-s1-l3-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "yo",
+                        "right": "I"
+                      },
+                      {
+                        "left": "tú",
+                        "right": "you"
+                      },
+                      {
+                        "left": "él",
+                        "right": "he"
+                      },
+                      {
+                        "left": "ella",
+                        "right": "she"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "es-s1-l4",
+              "title": "Level 4",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "es-s1-l4-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"how are you?\"",
+                    "options": [
+                      {
+                        "text": "¿Cómo estás?",
+                        "img": "🙂"
+                      },
+                      {
+                        "text": "¿Dónde estás?",
+                        "img": "📍"
+                      },
+                      {
+                        "text": "¿Cuántos años tienes?",
+                        "img": "🎂"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "¿Cómo estás?"
+                  }
+                },
+                {
+                  "id": "es-s1-l4-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I speak Spanish",
+                    "wordBank": [
+                      "hablo",
+                      "español",
+                      "inglés",
+                      "soy",
+                      "gracias",
+                      "tú"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "hablo español"
+                  }
+                },
+                {
+                  "id": "es-s1-l4-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Mucho ___ .",
+                    "options": [
+                      "gusto",
+                      "gracias",
+                      "hola"
+                    ],
+                    "translation": "Nice to meet you."
+                  },
+                  "solution": {
+                    "answer": "gusto"
+                  }
+                },
+                {
+                  "id": "es-s1-l4-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"good night\" in Spanish",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "buenas noches"
+                  }
+                },
+                {
+                  "id": "es-s1-l4-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "mucho gusto",
+                        "right": "nice to meet you"
+                      },
+                      {
+                        "left": "hablo",
+                        "right": "I speak"
+                      },
+                      {
+                        "left": "español",
+                        "right": "Spanish"
+                      },
+                      {
+                        "left": "hasta luego",
+                        "right": "see you later"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "es-s2",
+          "title": "Food",
+          "icon": "apple",
+          "description": "Simple food and drink phrases",
+          "lessons": [
+            {
+              "id": "es-s2-l1",
+              "title": "Level 1",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "es-s2-l1-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"bread\"?",
+                    "options": [
+                      {
+                        "text": "pan",
+                        "img": "🥖"
+                      },
+                      {
+                        "text": "leche",
+                        "img": "🥛"
+                      },
+                      {
+                        "text": "agua",
+                        "img": "💧"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "pan"
+                  }
+                },
+                {
+                  "id": "es-s2-l1-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I eat bread",
+                    "wordBank": [
+                      "como",
+                      "pan",
+                      "bebo",
+                      "agua",
+                      "yo",
+                      "leche"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "como pan"
+                  }
+                },
+                {
+                  "id": "es-s2-l1-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Yo ___ agua.",
+                    "options": [
+                      "bebo",
+                      "como",
+                      "soy"
+                    ],
+                    "translation": "I drink water."
+                  },
+                  "solution": {
+                    "answer": "bebo"
+                  }
+                },
+                {
+                  "id": "es-s2-l1-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"water\" in Spanish",
+                    "hint": "Starts with A"
+                  },
+                  "solution": {
+                    "answer": "agua"
+                  }
+                },
+                {
+                  "id": "es-s2-l1-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "pan",
+                        "right": "bread"
+                      },
+                      {
+                        "left": "agua",
+                        "right": "water"
+                      },
+                      {
+                        "left": "leche",
+                        "right": "milk"
+                      },
+                      {
+                        "left": "manzana",
+                        "right": "apple"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "es-s2-l2",
+              "title": "Level 2",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "es-s2-l2-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"milk\"?",
+                    "options": [
+                      {
+                        "text": "leche",
+                        "img": "🥛"
+                      },
+                      {
+                        "text": "pan",
+                        "img": "🥖"
+                      },
+                      {
+                        "text": "jugo",
+                        "img": "🧃"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "leche"
+                  }
+                },
+                {
+                  "id": "es-s2-l2-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "She drinks milk",
+                    "wordBank": [
+                      "ella",
+                      "bebe",
+                      "leche",
+                      "yo",
+                      "como",
+                      "agua"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "ella bebe leche"
+                  }
+                },
+                {
+                  "id": "es-s2-l2-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Quiero una ___.",
+                    "options": [
+                      "manzana",
+                      "pan",
+                      "agua"
+                    ],
+                    "translation": "I want an apple."
+                  },
+                  "solution": {
+                    "answer": "manzana"
+                  }
+                },
+                {
+                  "id": "es-s2-l2-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I eat\" in Spanish",
+                    "hint": "Starts with C"
+                  },
+                  "solution": {
+                    "answer": "como"
+                  }
+                },
+                {
+                  "id": "es-s2-l2-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "como",
+                        "right": "I eat"
+                      },
+                      {
+                        "left": "bebo",
+                        "right": "I drink"
+                      },
+                      {
+                        "left": "quiero",
+                        "right": "I want"
+                      },
+                      {
+                        "left": "manzana",
+                        "right": "apple"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "es-s2-l3",
+              "title": "Level 3",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "es-s2-l3-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "How do you say \"I am hungry\"?",
+                    "options": [
+                      {
+                        "text": "Tengo hambre",
+                        "img": "🍽️"
+                      },
+                      {
+                        "text": "Tengo sed",
+                        "img": "💧"
+                      },
+                      {
+                        "text": "Estoy frío",
+                        "img": "🥶"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "Tengo hambre"
+                  }
+                },
+                {
+                  "id": "es-s2-l3-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I want an apple",
+                    "wordBank": [
+                      "quiero",
+                      "una",
+                      "manzana",
+                      "tengo",
+                      "pan",
+                      "agua"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "quiero una manzana"
+                  }
+                },
+                {
+                  "id": "es-s2-l3-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Tengo ___, quiero agua.",
+                    "options": [
+                      "sed",
+                      "hambre",
+                      "frío"
+                    ],
+                    "translation": "I am thirsty, I want water."
+                  },
+                  "solution": {
+                    "answer": "sed"
+                  }
+                },
+                {
+                  "id": "es-s2-l3-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I want\" in Spanish",
+                    "hint": "Starts with Q"
+                  },
+                  "solution": {
+                    "answer": "quiero"
+                  }
+                },
+                {
+                  "id": "es-s2-l3-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "tengo hambre",
+                        "right": "I am hungry"
+                      },
+                      {
+                        "left": "tengo sed",
+                        "right": "I am thirsty"
+                      },
+                      {
+                        "left": "quiero",
+                        "right": "I want"
+                      },
+                      {
+                        "left": "necesito",
+                        "right": "I need"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "es-s2-l4",
+              "title": "Level 4",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "es-s2-l4-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"the menu\"?",
+                    "options": [
+                      {
+                        "text": "el menú",
+                        "img": "📋"
+                      },
+                      {
+                        "text": "la cuenta",
+                        "img": "🧾"
+                      },
+                      {
+                        "text": "el restaurante",
+                        "img": "🍽️"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "el menú"
+                  }
+                },
+                {
+                  "id": "es-s2-l4-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "The bill, please",
+                    "wordBank": [
+                      "la",
+                      "cuenta",
+                      "por",
+                      "favor",
+                      "menú",
+                      "agua"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "la cuenta, por favor"
+                  }
+                },
+                {
+                  "id": "es-s2-l4-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Quisiera ___ café.",
+                    "options": [
+                      "un",
+                      "una",
+                      "unos"
+                    ],
+                    "translation": "I would like a coffee."
+                  },
+                  "solution": {
+                    "answer": "un"
+                  }
+                },
+                {
+                  "id": "es-s2-l4-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"the restaurant\" in Spanish",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "el restaurante"
+                  }
+                },
+                {
+                  "id": "es-s2-l4-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "el menú",
+                        "right": "the menu"
+                      },
+                      {
+                        "left": "la cuenta",
+                        "right": "the bill"
+                      },
+                      {
+                        "left": "el restaurante",
+                        "right": "the restaurant"
+                      },
+                      {
+                        "left": "quisiera",
+                        "right": "I would like"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "es-u2",
+      "section": 1,
+      "title": "Section 1, Unit 2",
+      "subtitle": "Continue learning Spanish",
+      "color": "#1cb0f6",
+      "colorDark": "#1899d6",
+      "skills": []
+    },
+    {
+      "id": "es-u3",
+      "section": 1,
+      "title": "Section 1, Unit 3",
+      "subtitle": "More Spanish coming soon",
+      "color": "#ce82ff",
+      "colorDark": "#a568c7",
+      "skills": []
+    }
+  ]
+}

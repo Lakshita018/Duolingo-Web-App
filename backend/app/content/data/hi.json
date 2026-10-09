@@ -1,0 +1,859 @@
+{
+  "code": "hi",
+  "name": "Hindi",
+  "flag": "🇮🇳",
+  "units": [
+    {
+      "id": "hi-u1",
+      "section": 1,
+      "title": "Section 1, Unit 1",
+      "subtitle": "Learn everyday Hindi",
+      "color": "#ff9600",
+      "colorDark": "#d97900",
+      "skills": [
+        {
+          "id": "hi-s1",
+          "title": "Greetings",
+          "icon": "star",
+          "description": "Basic greetings and introductions",
+          "lessons": [
+            {
+              "id": "hi-s1-l1",
+              "title": "Level 1",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "hi-s1-l1-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"hello\"?",
+                    "options": [
+                      {
+                        "text": "नमस्ते",
+                        "img": "🙏"
+                      },
+                      {
+                        "text": "धन्यवाद",
+                        "img": "✨"
+                      },
+                      {
+                        "text": "अलविदा",
+                        "img": "👋"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "नमस्ते"
+                  }
+                },
+                {
+                  "id": "hi-s1-l1-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "Good morning",
+                    "wordBank": [
+                      "सुप्रभात",
+                      "नमस्ते",
+                      "धन्यवाद",
+                      "शुभरात्रि",
+                      "हाँ",
+                      "नहीं"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "सुप्रभात"
+                  }
+                },
+                {
+                  "id": "hi-s1-l1-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "मेरा नाम ___ है।",
+                    "options": [
+                      "राहुल",
+                      "पानी",
+                      "सेब"
+                    ],
+                    "translation": "My name is Rahul."
+                  },
+                  "solution": {
+                    "answer": "राहुल"
+                  }
+                },
+                {
+                  "id": "hi-s1-l1-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"thank you\" in Hindi",
+                    "hint": "Starts with ध"
+                  },
+                  "solution": {
+                    "answer": "धन्यवाद"
+                  }
+                },
+                {
+                  "id": "hi-s1-l1-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "नमस्ते",
+                        "right": "hello"
+                      },
+                      {
+                        "left": "धन्यवाद",
+                        "right": "thank you"
+                      },
+                      {
+                        "left": "अलविदा",
+                        "right": "goodbye"
+                      },
+                      {
+                        "left": "कृपया",
+                        "right": "please"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hi-s1-l2",
+              "title": "Level 2",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "hi-s1-l2-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"goodbye\"?",
+                    "options": [
+                      {
+                        "text": "अलविदा",
+                        "img": "👋"
+                      },
+                      {
+                        "text": "नमस्ते",
+                        "img": "🙏"
+                      },
+                      {
+                        "text": "कृपया",
+                        "img": "🙂"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "अलविदा"
+                  }
+                },
+                {
+                  "id": "hi-s1-l2-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "My name is Neha",
+                    "wordBank": [
+                      "मेरा",
+                      "नाम",
+                      "नेहा",
+                      "है",
+                      "मैं",
+                      "नमस्ते"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मेरा नाम नेहा है"
+                  }
+                },
+                {
+                  "id": "hi-s1-l2-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "आप कैसे ___?",
+                    "options": [
+                      "हैं",
+                      "हूँ",
+                      "है"
+                    ],
+                    "translation": "How are you?"
+                  },
+                  "solution": {
+                    "answer": "हैं"
+                  }
+                },
+                {
+                  "id": "hi-s1-l2-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"please\" in Hindi",
+                    "hint": "Starts with कृ"
+                  },
+                  "solution": {
+                    "answer": "कृपया"
+                  }
+                },
+                {
+                  "id": "hi-s1-l2-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "सुप्रभात",
+                        "right": "good morning"
+                      },
+                      {
+                        "left": "शुभ संध्या",
+                        "right": "good evening"
+                      },
+                      {
+                        "left": "शुभ रात्रि",
+                        "right": "good night"
+                      },
+                      {
+                        "left": "नमस्ते",
+                        "right": "hello"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hi-s1-l3",
+              "title": "Level 3",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "hi-s1-l3-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "How do you say \"I am a student\"?",
+                    "options": [
+                      {
+                        "text": "मैं विद्यार्थी हूँ",
+                        "img": "🎓"
+                      },
+                      {
+                        "text": "मैं पानी हूँ",
+                        "img": "💧"
+                      },
+                      {
+                        "text": "मैं शिक्षक है",
+                        "img": "👨‍🏫"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मैं विद्यार्थी हूँ"
+                  }
+                },
+                {
+                  "id": "hi-s1-l3-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I am fine, thank you",
+                    "wordBank": [
+                      "मैं",
+                      "ठीक",
+                      "हूँ",
+                      "धन्यवाद",
+                      "आप",
+                      "नमस्ते"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मैं ठीक हूँ, धन्यवाद"
+                  }
+                },
+                {
+                  "id": "hi-s1-l3-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "मैं एक ___ हूँ।",
+                    "options": [
+                      "विद्यार्थी",
+                      "सेब",
+                      "पानी"
+                    ],
+                    "translation": "I am a student."
+                  },
+                  "solution": {
+                    "answer": "विद्यार्थी"
+                  }
+                },
+                {
+                  "id": "hi-s1-l3-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I am fine\" in Hindi",
+                    "hint": "Three words"
+                  },
+                  "solution": {
+                    "answer": "मैं ठीक हूँ"
+                  }
+                },
+                {
+                  "id": "hi-s1-l3-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "मैं",
+                        "right": "I"
+                      },
+                      {
+                        "left": "आप",
+                        "right": "you"
+                      },
+                      {
+                        "left": "वह",
+                        "right": "he/she"
+                      },
+                      {
+                        "left": "हम",
+                        "right": "we"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hi-s1-l4",
+              "title": "Level 4",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "hi-s1-l4-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"how are you?\"",
+                    "options": [
+                      {
+                        "text": "आप कैसे हैं?",
+                        "img": "🙂"
+                      },
+                      {
+                        "text": "आप कहाँ हैं?",
+                        "img": "📍"
+                      },
+                      {
+                        "text": "आपका नाम क्या है?",
+                        "img": "❓"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "आप कैसे हैं?"
+                  }
+                },
+                {
+                  "id": "hi-s1-l4-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I speak Hindi",
+                    "wordBank": [
+                      "मैं",
+                      "हिंदी",
+                      "बोलता",
+                      "हूँ",
+                      "अंग्रेज़ी",
+                      "नाम"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मैं हिंदी बोलता हूँ"
+                  }
+                },
+                {
+                  "id": "hi-s1-l4-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "आपसे मिलकर ___ हुई।",
+                    "options": [
+                      "खुशी",
+                      "नाम",
+                      "पानी"
+                    ],
+                    "translation": "Nice to meet you."
+                  },
+                  "solution": {
+                    "answer": "खुशी"
+                  }
+                },
+                {
+                  "id": "hi-s1-l4-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"good night\" in Hindi",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "शुभ रात्रि"
+                  }
+                },
+                {
+                  "id": "hi-s1-l4-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "आपसे मिलकर खुशी हुई",
+                        "right": "nice to meet you"
+                      },
+                      {
+                        "left": "मैं बोलता हूँ",
+                        "right": "I speak"
+                      },
+                      {
+                        "left": "हिंदी",
+                        "right": "Hindi"
+                      },
+                      {
+                        "left": "फिर मिलेंगे",
+                        "right": "see you again"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hi-s2",
+          "title": "Food",
+          "icon": "apple",
+          "description": "Simple food and drink phrases",
+          "lessons": [
+            {
+              "id": "hi-s2-l1",
+              "title": "Level 1",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "hi-s2-l1-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"bread\"?",
+                    "options": [
+                      {
+                        "text": "रोटी",
+                        "img": "🫓"
+                      },
+                      {
+                        "text": "दूध",
+                        "img": "🥛"
+                      },
+                      {
+                        "text": "पानी",
+                        "img": "💧"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "रोटी"
+                  }
+                },
+                {
+                  "id": "hi-s2-l1-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I eat bread",
+                    "wordBank": [
+                      "मैं",
+                      "रोटी",
+                      "खाता",
+                      "हूँ",
+                      "पानी",
+                      "पीता"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मैं रोटी खाता हूँ"
+                  }
+                },
+                {
+                  "id": "hi-s2-l1-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "मैं ___ पीता हूँ।",
+                    "options": [
+                      "पानी",
+                      "रोटी",
+                      "सेब"
+                    ],
+                    "translation": "I drink water."
+                  },
+                  "solution": {
+                    "answer": "पानी"
+                  }
+                },
+                {
+                  "id": "hi-s2-l1-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"water\" in Hindi",
+                    "hint": "Starts with पा"
+                  },
+                  "solution": {
+                    "answer": "पानी"
+                  }
+                },
+                {
+                  "id": "hi-s2-l1-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "रोटी",
+                        "right": "bread"
+                      },
+                      {
+                        "left": "पानी",
+                        "right": "water"
+                      },
+                      {
+                        "left": "दूध",
+                        "right": "milk"
+                      },
+                      {
+                        "left": "सेब",
+                        "right": "apple"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hi-s2-l2",
+              "title": "Level 2",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "hi-s2-l2-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"milk\"?",
+                    "options": [
+                      {
+                        "text": "दूध",
+                        "img": "🥛"
+                      },
+                      {
+                        "text": "रोटी",
+                        "img": "🫓"
+                      },
+                      {
+                        "text": "जूस",
+                        "img": "🧃"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "दूध"
+                  }
+                },
+                {
+                  "id": "hi-s2-l2-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "She drinks milk",
+                    "wordBank": [
+                      "वह",
+                      "दूध",
+                      "पीती",
+                      "है",
+                      "मैं",
+                      "खाता"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "वह दूध पीती है"
+                  }
+                },
+                {
+                  "id": "hi-s2-l2-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "मुझे एक ___ चाहिए।",
+                    "options": [
+                      "सेब",
+                      "रोटी",
+                      "पानी"
+                    ],
+                    "translation": "I want an apple."
+                  },
+                  "solution": {
+                    "answer": "सेब"
+                  }
+                },
+                {
+                  "id": "hi-s2-l2-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I eat\" in Hindi",
+                    "hint": "Three words"
+                  },
+                  "solution": {
+                    "answer": "मैं खाता हूँ"
+                  }
+                },
+                {
+                  "id": "hi-s2-l2-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "मैं खाता हूँ",
+                        "right": "I eat"
+                      },
+                      {
+                        "left": "मैं पीता हूँ",
+                        "right": "I drink"
+                      },
+                      {
+                        "left": "मुझे चाहिए",
+                        "right": "I want"
+                      },
+                      {
+                        "left": "सेब",
+                        "right": "apple"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hi-s2-l3",
+              "title": "Level 3",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "hi-s2-l3-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "How do you say \"I am hungry\"?",
+                    "options": [
+                      {
+                        "text": "मुझे भूख लगी है",
+                        "img": "🍽️"
+                      },
+                      {
+                        "text": "मुझे प्यास लगी है",
+                        "img": "💧"
+                      },
+                      {
+                        "text": "मुझे ठंड लग रही है",
+                        "img": "🥶"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मुझे भूख लगी है"
+                  }
+                },
+                {
+                  "id": "hi-s2-l3-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I want an apple",
+                    "wordBank": [
+                      "मुझे",
+                      "एक",
+                      "सेब",
+                      "चाहिए",
+                      "भूख",
+                      "पानी"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मुझे एक सेब चाहिए"
+                  }
+                },
+                {
+                  "id": "hi-s2-l3-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "मुझे ___ लगी है, मुझे पानी चाहिए।",
+                    "options": [
+                      "प्यास",
+                      "भूख",
+                      "ठंड"
+                    ],
+                    "translation": "I am thirsty, I need water."
+                  },
+                  "solution": {
+                    "answer": "प्यास"
+                  }
+                },
+                {
+                  "id": "hi-s2-l3-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I want\" in Hindi",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "मुझे चाहिए"
+                  }
+                },
+                {
+                  "id": "hi-s2-l3-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "मुझे भूख लगी है",
+                        "right": "I am hungry"
+                      },
+                      {
+                        "left": "मुझे प्यास लगी है",
+                        "right": "I am thirsty"
+                      },
+                      {
+                        "left": "मुझे चाहिए",
+                        "right": "I want"
+                      },
+                      {
+                        "left": "ज़रूरत है",
+                        "right": "need"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hi-s2-l4",
+              "title": "Level 4",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "hi-s2-l4-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"the menu\"?",
+                    "options": [
+                      {
+                        "text": "मेन्यू",
+                        "img": "📋"
+                      },
+                      {
+                        "text": "बिल",
+                        "img": "🧾"
+                      },
+                      {
+                        "text": "रेस्तराँ",
+                        "img": "🍽️"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "मेन्यू"
+                  }
+                },
+                {
+                  "id": "hi-s2-l4-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "The bill, please",
+                    "wordBank": [
+                      "बिल",
+                      "कृपया",
+                      "मेन्यू",
+                      "पानी",
+                      "एक",
+                      "रेस्तराँ"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "बिल, कृपया"
+                  }
+                },
+                {
+                  "id": "hi-s2-l4-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "मुझे एक ___ चाहिए।",
+                    "options": [
+                      "कॉफी",
+                      "सेब",
+                      "रोटी"
+                    ],
+                    "translation": "I would like a coffee."
+                  },
+                  "solution": {
+                    "answer": "कॉफी"
+                  }
+                },
+                {
+                  "id": "hi-s2-l4-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"the restaurant\" in Hindi",
+                    "hint": "One word"
+                  },
+                  "solution": {
+                    "answer": "रेस्तराँ"
+                  }
+                },
+                {
+                  "id": "hi-s2-l4-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "मेन्यू",
+                        "right": "menu"
+                      },
+                      {
+                        "left": "बिल",
+                        "right": "bill"
+                      },
+                      {
+                        "left": "रेस्तराँ",
+                        "right": "restaurant"
+                      },
+                      {
+                        "left": "कृपया",
+                        "right": "please"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi-u2",
+      "section": 1,
+      "title": "Section 1, Unit 2",
+      "subtitle": "Continue learning Hindi",
+      "color": "#1cb0f6",
+      "colorDark": "#1899d6",
+      "skills": []
+    },
+    {
+      "id": "hi-u3",
+      "section": 1,
+      "title": "Section 1, Unit 3",
+      "subtitle": "More Hindi coming soon",
+      "color": "#ce82ff",
+      "colorDark": "#a568c7",
+      "skills": []
+    }
+  ]
+}

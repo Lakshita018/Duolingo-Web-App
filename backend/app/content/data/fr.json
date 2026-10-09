@@ -1,0 +1,859 @@
+{
+  "code": "fr",
+  "name": "French",
+  "flag": "🇫🇷",
+  "units": [
+    {
+      "id": "fr-u1",
+      "section": 1,
+      "title": "Section 1, Unit 1",
+      "subtitle": "Form basic sentences",
+      "color": "#58cc02",
+      "colorDark": "#58a700",
+      "skills": [
+        {
+          "id": "fr-s1",
+          "title": "Greetings",
+          "icon": "star",
+          "description": "Basic greetings and introductions",
+          "lessons": [
+            {
+              "id": "fr-s1-l1",
+              "title": "Level 1",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "fr-s1-l1-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"hello\"?",
+                    "options": [
+                      {
+                        "text": "bonjour",
+                        "img": "👋"
+                      },
+                      {
+                        "text": "merci",
+                        "img": "🙏"
+                      },
+                      {
+                        "text": "au revoir",
+                        "img": "👋"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "bonjour"
+                  }
+                },
+                {
+                  "id": "fr-s1-l1-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "Good morning",
+                    "wordBank": [
+                      "bonjour",
+                      "merci",
+                      "bonsoir",
+                      "salut",
+                      "oui",
+                      "non"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "bonjour"
+                  }
+                },
+                {
+                  "id": "fr-s1-l1-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Je m'___ Marie.",
+                    "options": [
+                      "appelle",
+                      "suis",
+                      "ai"
+                    ],
+                    "translation": "My name is Marie."
+                  },
+                  "solution": {
+                    "answer": "appelle"
+                  }
+                },
+                {
+                  "id": "fr-s1-l1-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"thank you\" in French",
+                    "hint": "Starts with M"
+                  },
+                  "solution": {
+                    "answer": "merci"
+                  }
+                },
+                {
+                  "id": "fr-s1-l1-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "bonjour",
+                        "right": "hello"
+                      },
+                      {
+                        "left": "au revoir",
+                        "right": "goodbye"
+                      },
+                      {
+                        "left": "merci",
+                        "right": "thank you"
+                      },
+                      {
+                        "left": "s'il vous plaît",
+                        "right": "please"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fr-s1-l2",
+              "title": "Level 2",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "fr-s1-l2-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"good evening\"?",
+                    "options": [
+                      {
+                        "text": "bonsoir",
+                        "img": "🌙"
+                      },
+                      {
+                        "text": "bonjour",
+                        "img": "☀️"
+                      },
+                      {
+                        "text": "bonne nuit",
+                        "img": "😴"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "bonsoir"
+                  }
+                },
+                {
+                  "id": "fr-s1-l2-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "My name is Paul",
+                    "wordBank": [
+                      "je",
+                      "m'appelle",
+                      "Paul",
+                      "suis",
+                      "bonjour",
+                      "merci"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "je m'appelle Paul"
+                  }
+                },
+                {
+                  "id": "fr-s1-l2-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Comment ___-vous ?",
+                    "options": [
+                      "allez",
+                      "êtes",
+                      "suis"
+                    ],
+                    "translation": "How are you?"
+                  },
+                  "solution": {
+                    "answer": "allez"
+                  }
+                },
+                {
+                  "id": "fr-s1-l2-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"goodbye\" in French",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "au revoir"
+                  }
+                },
+                {
+                  "id": "fr-s1-l2-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "bonjour",
+                        "right": "good morning"
+                      },
+                      {
+                        "left": "bonsoir",
+                        "right": "good evening"
+                      },
+                      {
+                        "left": "bonne nuit",
+                        "right": "good night"
+                      },
+                      {
+                        "left": "salut",
+                        "right": "hi"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fr-s1-l3",
+              "title": "Level 3",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "fr-s1-l3-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "How do you say \"I am a student\"?",
+                    "options": [
+                      {
+                        "text": "Je suis étudiant",
+                        "img": "🎓"
+                      },
+                      {
+                        "text": "J'ai étudiant",
+                        "img": "📚"
+                      },
+                      {
+                        "text": "Je fais professeur",
+                        "img": "👨‍🏫"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "Je suis étudiant"
+                  }
+                },
+                {
+                  "id": "fr-s1-l3-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I am fine, thank you",
+                    "wordBank": [
+                      "je",
+                      "vais",
+                      "bien",
+                      "merci",
+                      "suis",
+                      "mal"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "je vais bien, merci"
+                  }
+                },
+                {
+                  "id": "fr-s1-l3-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Je ___ étudiant.",
+                    "options": [
+                      "suis",
+                      "es",
+                      "est"
+                    ],
+                    "translation": "I am a student."
+                  },
+                  "solution": {
+                    "answer": "suis"
+                  }
+                },
+                {
+                  "id": "fr-s1-l3-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I am fine\" in French",
+                    "hint": "Three words"
+                  },
+                  "solution": {
+                    "answer": "je vais bien"
+                  }
+                },
+                {
+                  "id": "fr-s1-l3-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "je",
+                        "right": "I"
+                      },
+                      {
+                        "left": "tu",
+                        "right": "you"
+                      },
+                      {
+                        "left": "il",
+                        "right": "he"
+                      },
+                      {
+                        "left": "elle",
+                        "right": "she"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fr-s1-l4",
+              "title": "Level 4",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "fr-s1-l4-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"how are you?\"",
+                    "options": [
+                      {
+                        "text": "Comment allez-vous ?",
+                        "img": "🙂"
+                      },
+                      {
+                        "text": "Où êtes-vous ?",
+                        "img": "📍"
+                      },
+                      {
+                        "text": "Quel âge avez-vous ?",
+                        "img": "🎂"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "Comment allez-vous ?"
+                  }
+                },
+                {
+                  "id": "fr-s1-l4-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I speak French",
+                    "wordBank": [
+                      "je",
+                      "parle",
+                      "français",
+                      "anglais",
+                      "suis",
+                      "merci"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "je parle français"
+                  }
+                },
+                {
+                  "id": "fr-s1-l4-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Enchanté de faire votre ___.",
+                    "options": [
+                      "connaissance",
+                      "bonjour",
+                      "merci"
+                    ],
+                    "translation": "Nice to meet you."
+                  },
+                  "solution": {
+                    "answer": "connaissance"
+                  }
+                },
+                {
+                  "id": "fr-s1-l4-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"see you later\" in French",
+                    "hint": "Three words"
+                  },
+                  "solution": {
+                    "answer": "à plus tard"
+                  }
+                },
+                {
+                  "id": "fr-s1-l4-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "enchanté",
+                        "right": "nice to meet you"
+                      },
+                      {
+                        "left": "je parle",
+                        "right": "I speak"
+                      },
+                      {
+                        "left": "français",
+                        "right": "French"
+                      },
+                      {
+                        "left": "à plus tard",
+                        "right": "see you later"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fr-s2",
+          "title": "Food",
+          "icon": "apple",
+          "description": "Simple food and drink phrases",
+          "lessons": [
+            {
+              "id": "fr-s2-l1",
+              "title": "Level 1",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "fr-s2-l1-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"bread\"?",
+                    "options": [
+                      {
+                        "text": "le pain",
+                        "img": "🥖"
+                      },
+                      {
+                        "text": "le lait",
+                        "img": "🥛"
+                      },
+                      {
+                        "text": "l'eau",
+                        "img": "💧"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "le pain"
+                  }
+                },
+                {
+                  "id": "fr-s2-l1-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I eat bread",
+                    "wordBank": [
+                      "je",
+                      "mange",
+                      "du",
+                      "pain",
+                      "bois",
+                      "lait"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "je mange du pain"
+                  }
+                },
+                {
+                  "id": "fr-s2-l1-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Je ___ de l'eau.",
+                    "options": [
+                      "bois",
+                      "mange",
+                      "suis"
+                    ],
+                    "translation": "I drink water."
+                  },
+                  "solution": {
+                    "answer": "bois"
+                  }
+                },
+                {
+                  "id": "fr-s2-l1-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"water\" in French",
+                    "hint": "Three letters"
+                  },
+                  "solution": {
+                    "answer": "eau"
+                  }
+                },
+                {
+                  "id": "fr-s2-l1-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "pain",
+                        "right": "bread"
+                      },
+                      {
+                        "left": "eau",
+                        "right": "water"
+                      },
+                      {
+                        "left": "lait",
+                        "right": "milk"
+                      },
+                      {
+                        "left": "pomme",
+                        "right": "apple"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fr-s2-l2",
+              "title": "Level 2",
+              "playable": true,
+              "exercises": [
+                {
+                  "id": "fr-s2-l2-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"milk\"?",
+                    "options": [
+                      {
+                        "text": "le lait",
+                        "img": "🥛"
+                      },
+                      {
+                        "text": "le pain",
+                        "img": "🥖"
+                      },
+                      {
+                        "text": "le jus",
+                        "img": "🧃"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "le lait"
+                  }
+                },
+                {
+                  "id": "fr-s2-l2-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "She drinks milk",
+                    "wordBank": [
+                      "elle",
+                      "boit",
+                      "du",
+                      "lait",
+                      "je",
+                      "mange"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "elle boit du lait"
+                  }
+                },
+                {
+                  "id": "fr-s2-l2-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Je voudrais une ___.",
+                    "options": [
+                      "pomme",
+                      "pain",
+                      "eau"
+                    ],
+                    "translation": "I would like an apple."
+                  },
+                  "solution": {
+                    "answer": "pomme"
+                  }
+                },
+                {
+                  "id": "fr-s2-l2-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I eat\" in French",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "je mange"
+                  }
+                },
+                {
+                  "id": "fr-s2-l2-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "je mange",
+                        "right": "I eat"
+                      },
+                      {
+                        "left": "je bois",
+                        "right": "I drink"
+                      },
+                      {
+                        "left": "je voudrais",
+                        "right": "I would like"
+                      },
+                      {
+                        "left": "pomme",
+                        "right": "apple"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fr-s2-l3",
+              "title": "Level 3",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "fr-s2-l3-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "How do you say \"I am hungry\"?",
+                    "options": [
+                      {
+                        "text": "J'ai faim",
+                        "img": "🍽️"
+                      },
+                      {
+                        "text": "J'ai soif",
+                        "img": "💧"
+                      },
+                      {
+                        "text": "J'ai froid",
+                        "img": "🥶"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "J'ai faim"
+                  }
+                },
+                {
+                  "id": "fr-s2-l3-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "I want an apple",
+                    "wordBank": [
+                      "je",
+                      "veux",
+                      "une",
+                      "pomme",
+                      "ai",
+                      "faim"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "je veux une pomme"
+                  }
+                },
+                {
+                  "id": "fr-s2-l3-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "J'ai ___, je veux de l'eau.",
+                    "options": [
+                      "soif",
+                      "faim",
+                      "froid"
+                    ],
+                    "translation": "I am thirsty, I want water."
+                  },
+                  "solution": {
+                    "answer": "soif"
+                  }
+                },
+                {
+                  "id": "fr-s2-l3-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"I want\" in French",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "je veux"
+                  }
+                },
+                {
+                  "id": "fr-s2-l3-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "j'ai faim",
+                        "right": "I am hungry"
+                      },
+                      {
+                        "left": "j'ai soif",
+                        "right": "I am thirsty"
+                      },
+                      {
+                        "left": "je veux",
+                        "right": "I want"
+                      },
+                      {
+                        "left": "j'ai besoin",
+                        "right": "I need"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fr-s2-l4",
+              "title": "Level 4",
+              "playable": false,
+              "exercises": [
+                {
+                  "id": "fr-s2-l4-e1",
+                  "kind": "multiple_choice",
+                  "spec": {
+                    "prompt": "Which means \"the menu\"?",
+                    "options": [
+                      {
+                        "text": "le menu",
+                        "img": "📋"
+                      },
+                      {
+                        "text": "l'addition",
+                        "img": "🧾"
+                      },
+                      {
+                        "text": "le restaurant",
+                        "img": "🍽️"
+                      }
+                    ]
+                  },
+                  "solution": {
+                    "answer": "le menu"
+                  }
+                },
+                {
+                  "id": "fr-s2-l4-e2",
+                  "kind": "translate_wordbank",
+                  "spec": {
+                    "prompt": "The bill, please",
+                    "wordBank": [
+                      "l'addition",
+                      "s'il",
+                      "vous",
+                      "plaît",
+                      "menu",
+                      "eau"
+                    ]
+                  },
+                  "solution": {
+                    "answer": "l'addition, s'il vous plaît"
+                  }
+                },
+                {
+                  "id": "fr-s2-l4-e3",
+                  "kind": "fill_blank",
+                  "spec": {
+                    "sentence": "Je voudrais ___ café.",
+                    "options": [
+                      "un",
+                      "une",
+                      "des"
+                    ],
+                    "translation": "I would like a coffee."
+                  },
+                  "solution": {
+                    "answer": "un"
+                  }
+                },
+                {
+                  "id": "fr-s2-l4-e4",
+                  "kind": "type_answer",
+                  "spec": {
+                    "prompt": "Write \"the restaurant\" in French",
+                    "hint": "Two words"
+                  },
+                  "solution": {
+                    "answer": "le restaurant"
+                  }
+                },
+                {
+                  "id": "fr-s2-l4-e5",
+                  "kind": "match_pairs",
+                  "spec": {},
+                  "solution": {
+                    "pairs": [
+                      {
+                        "left": "le menu",
+                        "right": "the menu"
+                      },
+                      {
+                        "left": "l'addition",
+                        "right": "the bill"
+                      },
+                      {
+                        "left": "le restaurant",
+                        "right": "the restaurant"
+                      },
+                      {
+                        "left": "je voudrais",
+                        "right": "I would like"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-u2",
+      "section": 1,
+      "title": "Section 1, Unit 2",
+      "subtitle": "Continue learning French",
+      "color": "#1cb0f6",
+      "colorDark": "#1899d6",
+      "skills": []
+    },
+    {
+      "id": "fr-u3",
+      "section": 1,
+      "title": "Section 1, Unit 3",
+      "subtitle": "More French coming soon",
+      "color": "#ce82ff",
+      "colorDark": "#a568c7",
+      "skills": []
+    }
+  ]
+}

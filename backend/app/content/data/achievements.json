@@ -1,0 +1,65 @@
+[
+  {
+    "id": "first",
+    "title": "First Steps",
+    "description": "Complete your first lesson",
+    "icon": "👶",
+    "color": "#58cc02",
+    "rule": "lessons",
+    "threshold": 1
+  },
+  {
+    "id": "streak3",
+    "title": "On Fire",
+    "description": "Reach a 3-day streak",
+    "icon": "🔥",
+    "color": "#ff9600",
+    "rule": "streak",
+    "threshold": 3
+  },
+  {
+    "id": "xp50",
+    "title": "Wordsmith",
+    "description": "Earn 50 XP",
+    "icon": "✍️",
+    "color": "#1cb0f6",
+    "rule": "xp",
+    "threshold": 50
+  },
+  {
+    "id": "xp200",
+    "title": "Scholar",
+    "description": "Earn 200 XP",
+    "icon": "🎓",
+    "color": "#ce82ff",
+    "rule": "xp",
+    "threshold": 200
+  },
+  {
+    "id": "noMiss",
+    "title": "Sharpshooter",
+    "description": "Finish a lesson with 0 mistakes",
+    "icon": "🎯",
+    "color": "#ff4b4b",
+    "rule": "perfect_lesson",
+    "threshold": 1
+  },
+  {
+    "id": "week",
+    "title": "Weekly Warrior",
+    "description": "Reach a 7-day streak",
+    "icon": "🏆",
+    "color": "#ffc800",
+    "rule": "streak",
+    "threshold": 7
+  },
+  {
+    "id": "legendary",
+    "title": "Legendary",
+    "description": "Beat a legendary challenge",
+    "icon": "💎",
+    "color": "#a560e8",
+    "rule": "legendary",
+    "threshold": 1
+  }
+]
