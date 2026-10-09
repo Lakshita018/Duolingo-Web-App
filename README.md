@@ -2,7 +2,7 @@
 
 A full-stack, interactive language-learning application inspired by the learning experience of Duolingo. Learners sign up with a short onboarding flow, pick Spanish, French or Hindi, and progress through a learning path of short lessons made of five exercise types. Every answer is graded on the server, and lessons reward XP and gems, cost hearts for mistakes, build a daily streak and unlock achievements.
 
-Around the lesson loop the app provides a language-specific Letters page, a Bronze-league style leaderboard, a shop where hearts can be refilled with gems, a profile with statistics and achievements, light/dark themes, settings, help and logout. A completed lesson can be replayed as a *practice* run (restores a heart) or as a timed, shuffled *legendary* run (large XP reward).
+Around the lesson loop the app provides a language-specific Letters page, a Bronze-league style leaderboard, a shop where hearts can be refilled with gems, a profile with statistics and achievements, light/dark themes, settings, help and logout. 
 
 This project was built as a **Scaler assignment**. It is an educational project and is **not** the official Duolingo product and is not affiliated with Duolingo.
 
@@ -86,7 +86,7 @@ The flow has six steps: language, native language, proficiency, daily goal (5, 1
   </table>
 </div>
 
-The path shows Section 1 with Units 1, 2 and 3. Only **Unit 1** contains lessons. Each language has two skills (Greetings and Food) and each skill has four levels; levels 1 and 2 are playable and levels 3 and 4 are shown as locked future content. A level unlocks after the previous one is completed, and the second skill unlocks after both playable levels of the first skill are completed. Units 2 and 3 and the Section 2 card are locked placeholders: their "Jump here?" buttons only show a message.
+The path shows Section 1 with Units 1, 2 and 3. Only **Unit 1** contains lessons. Each language has two skills and each skill has four levels; levels 1 and 2 are playable and levels 3 and 4 are shown as locked future content. A level unlocks after the previous one is completed, and the second skill unlocks after both playable levels of the first skill are completed. Units 2 and 3 and the Section 2 card are locked placeholders: their "Jump here?" buttons only show a message.
 
 The top bar shows the language flag, streak, gems and hearts. The right rail shows the league card, a daily-quest progress bar based on the learner's daily goal, and a Super promotion card (placeholder).
 
@@ -207,7 +207,7 @@ The **More** menu opens Settings, Help or Log out. In Settings the **Light/Dark 
 - Learners are identified by email only; there are no passwords.
 
 **Multilingual learning content**
-- Spanish, French and Hindi courses, each with two skills (Greetings, Food) of four levels, five exercises per level (40 exercises per language). The native language is English.
+- Spanish, French and Hindi courses, each with two skills of four levels, five exercises per level (40 exercises per language). The native language is English.
 - Course content is stored as JSON files and validated on startup.
 
 **Learning path and progression**
