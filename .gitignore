@@ -1,0 +1,40 @@
+# Node
+node_modules/
+.next/
+frontend/.next/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+backend/**/__pycache__/
+
+# Env
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
+
+# SQLite
+backend/duolingo.db
+backend/*.db
+backend/*.db-wal
+backend/*.db-shm
+backend/*.bak
+backend/*.db.bak-*
+backend/*.db.pre-*
+.pytest_cache/
+frontend/tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+.venv/
+venv/
+*.db
+*.db-wal
+*.db-shm
+*.bak
+*.log
