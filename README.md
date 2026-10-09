@@ -8,6 +8,9 @@ This project was built as a **Scaler assignment**. It is an educational project 
 
 **Stack:** Next.js (TypeScript) · FastAPI (Python) · SQLite
 
+**Live Demo:** [Open the application](https://duolingo-web-app-delta.vercel.app/)<br />
+**Source Code:** [GitHub Repository](https://github.com/Lakshita018/Duolingo-Web-App)
+
 ---
 
 ## Application screenshots
@@ -255,7 +258,7 @@ The **More** menu opens Settings, Help or Log out. In Settings the **Light/Dark 
 | Database | SQLite | Persistent learner data and the synced course catalogue |
 | Migrations | Custom runner on `sqlite3` (`PRAGMA user_version`) | Versioned schema upgrades and legacy-data import |
 | Tests | pytest, httpx (via FastAPI's `TestClient`) | Backend tests |
-| Deployment config | Render blueprint, GitHub Actions workflow | Backend hosting and keep-alive ping (see [DEPLOY.md](DEPLOY.md)) |
+| Deployment config | Render blueprint, GitHub Actions workflow | Backend hosting and keep-alive ping |
 
 The frontend `package.json` lists additional dependencies from the project template that the application code does not use.
 
@@ -376,7 +379,6 @@ The `/api/dev/*` routes are mounted only when `DEV_TOOLS` is true. Set `DEV_TOOL
 ```text
 .
 ├── README.md
-├── DEPLOY.md                      Deployment guide (Vercel + Render, or a VPS)
 ├── render.yaml                    Render blueprint for the backend
 ├── .github/workflows/keep-alive.yml
 ├── ScreenShot/                    README screenshots
@@ -483,7 +485,7 @@ Open `http://localhost:3000` (the `dev` script uses port 3000; `BACKEND_API_URL`
 | `DATABASE_URL` | `sqlite+aiosqlite:///./duolingo.db` | SQLite location; only SQLite URLs are supported |
 | `CORS_ORIGINS` | `*` | Comma-separated allowed origins (the browser normally calls the frontend origin through the proxy) |
 | `TIMEZONE` | empty (server local time) | IANA zone, for example `Asia/Kolkata`, used for streak and daily-goal day boundaries |
-| `DEV_TOOLS` | `true` | Mounts `/api/dev/*`; set `false` in shared deployments |
+| `DEV_TOOLS` | `false` on Render | Controls the development-only `/api/dev/*` routes |
 | `BACKUP_BEFORE_MIGRATE` | `true` | Write a `.bak` copy before migrating an existing database |
 
 **Frontend** (`frontend/.env.example`)
@@ -504,7 +506,7 @@ Deployment-only settings: `PYTHON_VERSION` (set in `render.yaml`) and the GitHub
 pytest
 ```
 
-The suite contains 56 tests in four files: API flows for every language (onboarding, unlocking, XP, hearts, practice, legendary, leaderboard, achievements, profile, dev tools), grading and content validation, migration and legacy-data import, and heart/streak/daily-XP logic. It passed during development on Python 3.11 with the pinned requirements. There are no automated frontend tests.
+The backend test suite covers API flows, grading and content validation, migration and legacy-data import, and heart, streak and daily-XP logic.
 
 **Frontend checks** (from `frontend/`):
 
@@ -529,12 +531,12 @@ There is no lint script. The type-check was clean during development.
 
 ## Deployment
 
-No public deployment URL is included in this repository. [DEPLOY.md](DEPLOY.md) describes two options:
+[The application is deployed here](https://duolingo-web-app-delta.vercel.app/). The deployment options are:
 
 - **Vercel (frontend) + Render (backend).** `render.yaml` defines the backend web service and `.github/workflows/keep-alive.yml` pings `/api/health` every five minutes to limit cold starts. On Vercel set the root directory to `frontend` and `BACKEND_API_URL` to the Render URL before building.
 - **A single VPS** running both processes under systemd with a reverse proxy.
 
-**SQLite and persistence.** The database is a single file and must be on a persistent disk with exactly one backend process. Render's free plan has an ephemeral filesystem: the database is recreated (and learner data lost) on every redeploy or restart, and a local `duolingo.db` is not shared with a deployed service. For durable progress use a paid Render disk or a VPS. The frontend recreates a missing account from its locally saved profile and shows a notice that progress starts fresh.
+**Data persistence limitation.** The FastAPI backend currently uses SQLite on Render's free service. The backend's SQLite database file is stored on the service filesystem, and persistent disk storage is not configured, so data should not be assumed to survive every restart, redeployment or filesystem replacement. If the database file is lost or reset, learner history and progress stored in it—including lesson progress, XP, streaks, hearts and other learner-specific data—may be lost. A persistent disk or a suitable managed database would improve long-term data reliability; the keep-alive workflow does not guarantee database persistence.
 
 ---
 
@@ -547,18 +549,18 @@ No public deployment URL is included in this repository. [DEPLOY.md](DEPLOY.md) 
 - The leaderboard is all-time XP against seeded competitors and other local learners; the league is always "Bronze" and there is no weekly reset or promotion.
 - The legendary 60-second timer runs in the browser; the server does not enforce it.
 - Speech uses the browser's speech-synthesis voices, which vary by browser and operating system.
-- SQLite limits the backend to a single instance. There are no automated frontend tests and no lint configuration.
+- SQLite limits the backend to a single instance. There is no lint configuration.
 
 ---
 
 ## Assignment and project notes
 
-- Built as a Scaler assignment: a Duolingo-inspired educational application. Duolingo's name, mascot and visual style are used for educational demonstration only; there is no affiliation.
-- The project started from a starter repository. The backend was subsequently reorganised into routers, services, schemas, models, versioned migrations and JSON course content, with attempt-based, server-graded lessons; the frontend was adapted to those API contracts.
+- Built entirely by **Lakshita Gupta** (Roll Number: **102303505**), a student of **Thapar**, following the guidelines given by **Scaler**.
+- This is a Duolingo-inspired educational application. Duolingo's name, mascot and visual style are used for educational demonstration only; there is no affiliation.
 - Course content (phrases and vocabulary) is limited demonstration material.
 
 ---
 
 ## Conclusion
 
-The application delivers a complete small learning product: onboarding, three languages, a locked learning path, five exercise types graded on the server, XP, hearts, gems, streaks, achievements, practice and legendary runs, a leaderboard, language-specific letters, a shop, a profile and settings. SQLite persistence with versioned migrations keeps learner progress safe across upgrades, and the documented deployment options explain what is required to host it.
+The application delivers a complete small learning product: onboarding, three languages, a locked learning path, five exercise types graded on the server, XP, hearts, gems, streaks, achievements, practice and legendary runs, a leaderboard, language-specific letters, a shop, a profile and settings. SQLite persistence with versioned migrations supports learner data across schema upgrades when the database file is retained, and the documented deployment options explain what is required to host it.
